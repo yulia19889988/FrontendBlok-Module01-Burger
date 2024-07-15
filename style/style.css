@@ -217,10 +217,10 @@ a {
 }
 .banner-btn {
    font-size: 14px;
-   font weight: 700px;
+   font-weight: 700px;
    font-family: var(--nunito--sans);
    padding: 22px 25px;
-   text-decoratition: none;
+   text-decoration: none;
    border: none;
    color: var(--dark);
    background-color: var(--accent-light);
