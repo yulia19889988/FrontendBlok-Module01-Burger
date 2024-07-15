@@ -28,6 +28,10 @@ a {
 /* --header-- */
 
 .header {
+   border-bottom: 1px solid #DEDEDE;
+}
+
+.header-wrapper {
    display: flex;
    align-items: center;
    gap: 196px;
@@ -44,7 +48,7 @@ a {
 .nav {
    flex-grow: 1;
    display: flex;
-   gap: 46px;
+   gap: 47px;
 }
 .nav-link {
    color: var(--dark);
@@ -137,6 +141,8 @@ a {
    font-weight: 700;
    font-size: 79px;
    color: var(--light);
+   margin-top: 20px;
+   margin-bottom: 18px;
       }
 .hero-description {
    max-width: 320px;
@@ -147,5 +153,80 @@ a {
    color: rgba(var(--light-rgb), 0.8);
 
    }
+   /* banner */
+
+
+.banner {
+   margin-top: 140px;
+   
+   
+}
+
+.banner-wrapper {
+   padding: 100px;
+   background-image: url(../img/banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 140px;
+   
+
+   
+   
+}
+.banner-title span {
+   display: block;
+   text-align: center;
+   padding: 7px 18px 0px 18px;
+   width: 60px;
+   min-height: 25px;
+   background: var(--accent-dark);
+   border-radius: 14px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 129%;
+   text-transform: uppercase;
+   color: #fff;
+   margin-bottom: 5px;
+
+   
+}
+.banner-title  {
+   font-family: var(--nunito--sans);
+   font-weight: 900;
+   color: var(--light);
+   font-size: 60px;
+   line-height: 127%;
+   text-transform: uppercase;
+   margin-bottom: 0px;
+   
+   
+}
+.banner-deckription {
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 160%;
+   color: rgba(var(--light-rgb), 0.8);
+   width: 353px;
+   margin-bottom: 15px;
+
+
+   
+   
+}
+.banner-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font: weight 700px;;
+   font-size: 14px;
+   color: var(--dark);
+   width: 170px;
+   height: 58px;
+   background-color: var(--accent-light);
+   text-transform: uppercase;
+   margin-bottom: 50px;
+   
+}
+
 
 
