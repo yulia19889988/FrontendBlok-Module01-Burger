@@ -217,7 +217,7 @@ a {
    display: flex;
    align-items: center;
    justify-content: center;
-   font: weight 700px;;
+   font weight: 700px;
    font-size: 14px;
    color: var(--dark);
    width: 170px;
