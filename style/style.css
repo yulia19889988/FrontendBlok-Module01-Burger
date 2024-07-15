@@ -176,17 +176,19 @@ a {
 .banner-title span {
    display: block;
    text-align: center;
-   padding: 7px 18px 0px 18px;
-   width: 60px;
-   min-height: 25px;
-   background: var(--accent-dark);
-   border-radius: 14px;
-   font-weight: 600;
+   max-width: 95px;
+   color: var(--light);
+   font-family: var(--open-sans);
    font-size: 14px;
-   line-height: 129%;
+   font-weight: 600;
+   line-height: 128%;
    text-transform: uppercase;
-   color: #fff;
-   margin-bottom: 5px;
+   text-align: center;
+   background-color: var(--accent-dark);
+   border-radius: 14px;
+   padding: 5px 0;
+   margin-bottom: 4px;
+   
 
    
 }
@@ -197,36 +199,37 @@ a {
    font-size: 60px;
    line-height: 127%;
    text-transform: uppercase;
-   margin-bottom: 0px;
+   margin-top: 0;
+   margin-bottom: 11px;
    
    
 }
 .banner-deckription {
-   font-weight: 400;
-   font-size: 15px;
-   line-height: 160%;
+   max-width: 320px;
+   margin-top: 0;
+   margin-bottom: 11px;
    color: rgba(var(--light-rgb), 0.8);
-   width: 353px;
-   margin-bottom: 15px;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400px;
+   line-height: 160%;
 
-
-   
-   
 }
 .banner-btn {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font weight: 700px;
    font-size: 14px;
+   font weight: 700px;
+   font-family: var(--nunito--sans);
+   padding: 22px 25px;
+   text-decoratition: none;
+   border: none;
    color: var(--dark);
-   width: 170px;
-   height: 58px;
    background-color: var(--accent-light);
    text-transform: uppercase;
    margin-bottom: 50px;
-   
+   border-radius: 5px;
 }
-
+.banner-btn:hover {
+   background-color: var(--accent-dark);
+}
 
 
