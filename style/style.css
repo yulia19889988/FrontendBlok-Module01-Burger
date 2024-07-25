@@ -471,6 +471,7 @@ a {
    font-weight: 400;
    font-size: 15px;
    color: rgba(var(--light-rgb), .9);
+   margin-bottom: 10px;
 }
 .footer-item:last-child {
    flex-basis: 194px;
