@@ -729,21 +729,98 @@ a {
    }
    .hero-title {
       font-size: 38px;
+      margin-top: 28px;
+      margin-bottom: 13px;
       }
    .hero-description {
       font-size: 12px;
+      line-height: 166%;
+   }
+   .banner {
+      margin-top: 33px;
    }
    .banner-wrapper {
       padding: 35px 17px;
-  }
-  .banner-deckription {
+   }
+   .banner-title {
+      margin-bottom: 9px;
+   }
+   .banner-deckription {
       font-size: 14px;
-      width: 100%;
       max-width: 222px;
-      margin-bottom: 13px;
-  }
-  .banner-btn {
-   max-width: 196px;
-  }
+      margin-bottom: 20px;
+   }
+   .banner-btn {
+   max-width: 198px;
+   }
+   .menu-header {
+      margin-top: 58px;
+      margin-bottom: 30px;
+   }
+   .menu-title {
+      font-size: 27px;
+   }
+   .menu-select {
+      font-size: 12px;
+      flex-basis: 136px;
+      background-position: 93% center;
+      width: 136px;
+      padding: 13px 15px;
+   }
+   .menu-box {
+      gap: 24px 20px;
+   }
+   .menu-name {
+      font-size: 13px;
+      margin-bottom: 8px;
+   }
+   .menu-thumb {
+      margin-bottom: 10px;
+      height: 50vw;
+   }
+      .menu-item._additonally .menu-thumb {
+         height: 30vw;
+   }
+   .menu-prise {
+      font-size: 12px;
+      margin-bottom: 14px;
+   }
+   .menu-btn {
+      padding: 11px 22px;
+   }
+   .footer {
+      padding-bottom: 86px;
+   }
+   .footer-wrapper {
+      flex-direction: column;
+      gap: 35px;
+      position: relative;
+   }
+   .footer-logo {
+      margin-bottom: 9px;
+   }
+   .footer-tel._mobile {
+      position: absolute;
+      top: -13px;
+      right: 0;
+}
+.footer-tel._mobile + .footer-tel._mobile {
+   top: 24px;
+}
+.footer-title  {
+   font-size: 18px;
+}
+.footer-nav {
+   margin-bottom: 0;
 
+}
+}
+   @media (max-width: 450px) {
+      .menu-item._additonally .menu-thumb {
+         height: 38vw;
+         flex-basis: calc(100% - 130px - 20px);
+      }
+      .menu-item._additonally .menu-info {
+         flex-basis: 130px;
+      }
 }
